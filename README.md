@@ -33,20 +33,6 @@ npm run dev
 
 Then open http://localhost:3000 in your browser.
 
----
-
-📁 Project Structure (Simplified)
-
-.
-├── app/          # Main pages (Next.js App Router)
-├── public/       # Public assets (logos, images, etc.)
-├── styles/       # Global styles
-├── components/   # Modular UI components
-├── README.md
-└── ...
-
----
-
 📦 Deployment
 
 Recommended to deploy on Vercel — for instant and seamless deployment 🚀
