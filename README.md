@@ -33,8 +33,6 @@ npm run dev
 
 Then open http://localhost:3000 in your browser.
 
----
-
 📁 Project Structure (Simplified)
 
 .
@@ -44,8 +42,6 @@ Then open http://localhost:3000 in your browser.
 ├── components/   # Modular UI components
 ├── README.md
 └── ...
-
----
 
 📦 Deployment
 
