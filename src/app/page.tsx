@@ -7,15 +7,15 @@ export default function Home() {
       <div className="container mx-auto flex max-w-3xl flex-col items-center justify-center space-y-8 text-center">
         <div className="animate-in fade-in-0 slide-in-from-top-4 duration-1000 space-y-4">
           <h1 className="font-headline text-4xl font-extrabold tracking-tight text-foreground transition-colors duration-500 hover:text-primary/90 sm:text-5xl md:text-6xl lg:text-7xl">
-            Need Assignment Help?
+            Butuh Bantuan Tugas?
             <br />
             <span className="text-primary">
-              Let's Go!
+              Serahkan Saja!
             </span>
           </h1>
           <p className="mx-auto max-w-xl text-lg text-muted-foreground md:text-xl">
-            Don't let assignments pile up. Our professional team is ready to
-            tackle your tasks quickly, accurately, and plagiarism-free.
+            Jangan biarkan tugas menumpuk. Tim profesional kami siap
+            mengerjakan tugas Anda dengan cepat, akurat, dan bebas plagiarisme.
           </p>
         </div>
 
