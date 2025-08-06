@@ -14,8 +14,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="mx-auto max-w-xl text-lg text-muted-foreground md:text-xl">
-            Jangan biarkan tugas menumpuk. Tim profesional kami siap
-            mengerjakan tugas Anda dengan cepat, akurat, dan bebas plagiarisme.
+            Tugas menumpuk bikin pusing? Serahkan pada ahlinya. Saya siap membantu Anda menyelesaikan tugas dengan hasil yang cepat, akurat, dan terjamin orisinalitasnya.
           </p>
         </div>
 
@@ -23,12 +22,13 @@ export default function Home() {
           <Button
             asChild
             size="lg"
-            className="h-14 rounded-full bg-accent px-8 text-lg font-bold text-accent-foreground shadow-lg transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:bg-accent/90 active:scale-100"
+            className="group h-14 rounded-full bg-accent px-8 text-lg font-bold text-accent-foreground shadow-lg transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:bg-accent/90 active:scale-100"
           >
             <a
               href="https://wa.me/6285947094014?text=Halo%20kak%2C%20saya%20mau%20jokiin%20tugas.%20Bisa%20dibantu%20ya%3F"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex items-center"
             >
               <WhatsappIcon className="mr-3 h-6 w-6 transition-transform duration-300 group-hover:rotate-12" />
               Chat via WhatsApp
