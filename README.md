@@ -1,5 +1,5 @@
-# Firebase Studio
+# TugasHero | Jasa Joki Tugas
 
-This is a NextJS starter in Firebase Studio.
+Landing page modern untuk jasa joki tugas, dibuat dengan Next.js dan Tailwind CSS.
 
-To get started, take a look at src/app/page.tsx.
+Project ini dikerjakan secara **full vibe coding** 🚀.
