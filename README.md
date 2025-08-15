@@ -26,8 +26,8 @@ TugasHero is a sleek, modern landing page for freelance assignment services — 
 
 🛠 Getting Started
 
-git clone https://github.com/vincensiuselang/TugasHero.git
-cd TugasHero
+https://github.com/vincensiuselang/leadingpage-jokitugas.git
+cd leadingpage-jokitugas
 npm install
 npm run dev
 
