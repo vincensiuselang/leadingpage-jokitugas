@@ -19,11 +19,53 @@ export default function Home() {
         </div>
 
         <div className="animate-in fade-in-0 slide-in-from-bottom-4 duration-1000 delay-150 fill-mode-both">
-          <div className="mx-auto max-w-md rounded-lg border bg-card p-4 shadow-sm">
-            <h3 className="mb-3 text-center text-sm font-semibold text-foreground">
+          <div className="mx-auto max-w-2xl rounded-lg border bg-card p-6 shadow-sm">
+            <h3 className="mb-4 text-center text-lg font-semibold text-foreground">
               Testimoni Klien
             </h3>
-            <div className="overflow-hidden rounded-md">
+            <div className="flex flex-col sm:flex-row items-center gap-4">
+              <div className="flex-shrink-0 w-full sm:w-64">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    src="/Screenshot 2025-08-15 155234.png"
+                    alt="Testimoni dari klien yang puas dengan layanan joki tugas"
+                    className="h-auto w-full object-cover"
+                  />
+                </div>
+              </div>
+              <div className="flex-1 text-left">
+                <p className="text-sm text-muted-foreground italic mb-2">
+                  "Pelayanan sangat memuaskan! Tugas dikerjakan dengan cepat dan hasilnya berkualitas. Sangat recommended!"
+                </p>
+                <p className="text-xs text-muted-foreground font-medium">
+                  - Klien Puas ⭐⭐⭐⭐⭐
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="animate-in fade-in-0 slide-in-from-bottom-4 duration-1000 delay-300 fill-mode-both">
+          <Button
+            asChild
+            size="lg"
+            className="group h-14 rounded-full bg-accent px-8 text-lg font-bold text-accent-foreground shadow-lg transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:bg-accent/90 active:scale-100"
+          >
+            <a
+              href="https://wa.me/6285947094014?text=Halo%20kak%2C%20saya%20mau%20jokiin%20tugas.%20Bisa%20dibantu%20ya%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center"
+            >
+              <WhatsappIcon className="mr-3 h-6 w-6 transition-transform duration-300 group-hover:rotate-12" />
+              Chat via WhatsApp
+            </a>
+          </Button>
+        </div>
+      </div>
+    </main>
+  );
+}
               <img
                 src="/Screenshot 2025-08-15 155234.png"
                 alt="Testimoni dari klien yang puas dengan layanan joki tugas"
