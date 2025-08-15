@@ -18,6 +18,21 @@ export default function Home() {
           </p>
         </div>
 
+        <div className="animate-in fade-in-0 slide-in-from-bottom-4 duration-1000 delay-150 fill-mode-both">
+          <div className="mx-auto max-w-md rounded-lg border bg-card p-4 shadow-sm">
+            <h3 className="mb-3 text-center text-sm font-semibold text-foreground">
+              Testimoni Klien
+            </h3>
+            <div className="overflow-hidden rounded-md">
+              <img
+                src="/Screenshot 2025-08-15 155234.png"
+                alt="Testimoni dari klien yang puas dengan layanan joki tugas"
+                className="h-auto w-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+
         <div className="animate-in fade-in-0 slide-in-from-bottom-4 duration-1000 delay-300 fill-mode-both">
           <Button
             asChild
